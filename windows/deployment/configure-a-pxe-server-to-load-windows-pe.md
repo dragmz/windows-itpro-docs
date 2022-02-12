@@ -153,6 +153,7 @@ Windows Boot Loader
 -------------------
 identifier              {a4f89c62-2142-11e6-80b6-00155da04110}
 device                  ramdisk=[boot]\Boot\boot.wim,{ramdiskoptions}
+path                    \windows\system32\winload.exe
 description             winpe boot image
 osdevice                ramdisk=[boot]\Boot\boot.wim,{ramdiskoptions}
 systemroot              \Windows
